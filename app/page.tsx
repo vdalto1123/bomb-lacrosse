@@ -18,6 +18,22 @@ export default function Home() {
 
       <section style={{marginTop:40}}>
         <h2 style={{color:"#38bdf8"}}>Book a Session</h2>
+        <a
+  href="/availability"
+  style={{
+    display: "inline-block",
+    marginTop: 20,
+    padding: "15px 25px",
+    background: "#89CFF0",
+    color: "#000",
+    textDecoration: "none",
+    fontWeight: "bold",
+    borderRadius: 8
+  }}
+>
+  View Availability & Book
+</a>
+
         <p>Click below to book your private lesson or clinic.</p>
         <a href="https://calendly.com/your-link"
            style={{
