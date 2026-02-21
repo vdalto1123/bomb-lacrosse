@@ -67,6 +67,37 @@ export default function Home() {
           Vince D'Alto has 10+ years coaching experience turning good players into great players.
           He was a two-time All-American at Boston University, And signed a 2 year contract with the Redwoods Lacrosse Club.
           He is Boston Universities program record holder for goals (167), points (280), and points in a game (14).
+          <div style={{ marginTop: 30, display: "grid", gap: 20 }}>
+  <iframe
+    width="100%"
+    height="400"
+    src="https://www.youtube.com/embed/LjWB9cCaa1M"
+    title="Bomb Lacrosse Video 1"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+    style={{
+      borderRadius: 16,
+      border: "1px solid #222",
+      maxWidth: 900
+    }}
+  />
+
+  <iframe
+    width="100%"
+    height="400"
+    src="https://www.youtube.com/embed/JB0f89xbteI"
+    title="Bomb Lacrosse Video 2"
+    frameBorder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowFullScreen
+    style={{
+      borderRadius: 16,
+      border: "1px solid #222",
+      maxWidth: 900
+    }}
+  />
+</div>
         </p>
 
         <section style={{ marginTop: 40 }}>
