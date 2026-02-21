@@ -38,7 +38,7 @@ export default function AvailabilityPage() {
         <iframe
   src="https://calendly.com/vinceddalto?hide_gdpr_banner=1"
   width="100%"
-  height="500"
+  height="600"
   style={{
     border: "1px solid #222",
     borderRadius: 16,
@@ -56,7 +56,7 @@ export default function AvailabilityPage() {
         <ul>
           <li><b>Who is this for?</b> Athletes ages 7–17 (parents book).</li>
           <li><b>What should we bring?</b> Stick, helmet, gloves, water.</li>
-          <li><b>Where is training?</b> (Add location later)</li>
+          <li><b>Where is training?</b> (TBD)</li>
         </ul>
       </section>
     </main>
