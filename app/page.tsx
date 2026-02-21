@@ -66,7 +66,7 @@ export default function Home() {
         <p>
           10+ years coaching experience turning good players into great players.
           Two-time All-American at Boston University.
-          Program record holder for goals, points, and points in a game (14).
+          Program record holder for goals (167), points (280), and points in a game (14).
         </p>
       </section>
 
