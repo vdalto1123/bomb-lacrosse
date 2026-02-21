@@ -57,9 +57,11 @@ export default function Home() {
   return (
     <main style={{padding:40,maxWidth:900,margin:"auto"}}>
       <h1 style={{fontSize:40}}>Learn to shoot bombs.</h1>
-      <p style={{color:"#ccc",fontSize:18}}>
-        Private lessons ($50) and shooting clinics ($30) for athletes ages 7–21.
-      </p>
+     <ul style={{ color: "#ddd", fontSize: 18, marginTop: 10, lineHeight: 1.8 }}>
+  <li>Private lessons — $50 per athlete (60 minutes)</li>
+  <li>Shooting clinics — $30 per athlete</li>
+  <li>Athletes ages 7–21</li>
+</ul>
 
       <section style={{marginTop:40}}>
         <h2 style={{color:"#38bdf8"}}>About the Coach</h2>
