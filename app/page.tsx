@@ -64,6 +64,8 @@ export default function Home() {
         </p>
       </section>
 
+      <Slideshow />
+      
       <section style={{marginTop:40}}>
         <h2 style={{color:"#38bdf8"}}>Book a Session</h2>
         <a
