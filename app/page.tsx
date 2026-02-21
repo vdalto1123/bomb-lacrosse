@@ -1,4 +1,52 @@
+"use client";
+import { useEffect, useState } from "react";
+function Slideshow() {
+  const images = ["/slide1.jpg", "/slide2.jpg", "/slide3.jpg"]; // add more if you uploaded more
+  const [index, setIndex] = useState(0);
 
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setIndex((i) => (i + 1) % images.length);
+    }, 3000);
+    return () => clearInterval(timer);
+  }, [images.length]);
+
+  return (
+    <div style={{ marginTop: 30, marginBottom: 30 }}>
+      <img
+        src={images[index]}
+        alt="Bomb Lacrosse slideshow"
+        style={{
+          width: "100%",
+          maxWidth: 900,
+          height: 420,
+          objectFit: "cover",
+          borderRadius: 16,
+          border: "1px solid #222",
+          display: "block",
+        }}
+      />
+
+      <div style={{ display: "flex", gap: 8, marginTop: 12 }}>
+        {images.map((_, i) => (
+          <button
+            key={i}
+            onClick={() => setIndex(i)}
+            style={{
+              width: 10,
+              height: 10,
+              borderRadius: 999,
+              border: "none",
+              cursor: "pointer",
+              background: i === index ? "#89CFF0" : "#333",
+            }}
+            aria-label={`Slide ${i + 1}`}
+          />
+        ))}
+      </div>
+    </div>
+  );
+}
 export default function Home() {
   return (
     <main style={{padding:40,maxWidth:900,margin:"auto"}}>
