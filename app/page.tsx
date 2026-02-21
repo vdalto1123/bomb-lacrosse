@@ -105,7 +105,7 @@ export default function Home() {
         <section style={{ marginTop: 40 }}>
   <h2 style={{ color: "#38bdf8" }}>About Us</h2>
   <p style={{ color: "#ddd", fontSize: 16, lineHeight: 1.6 }}>
-    Bomb Lacrosse is built around one idea: proper form and positioning on the field creates confident shooters.
+    Bomb Lacrosse is built around one idea: proper form, hard work and positioning on the field creates confident shooters.
     
   </p>
 </section>
