@@ -68,6 +68,37 @@ export default function Home() {
           Two-time All-American at Boston University.
           Program record holder for goals (167), points (280), and points in a game (14).
         </p>
+
+        <section style={{ marginTop: 40 }}>
+  <h2 style={{ color: "#38bdf8" }}>About Us</h2>
+  <p style={{ color: "#ddd", fontSize: 16, lineHeight: 1.6 }}>
+    Bomb Lacrosse is built around one idea: proper form creates confident shooters.
+    I have 10+ years of coaching experience turning good players into great players.
+    I was a two-time All-American at Boston University and hold program records for goals and points.
+  </p>
+</section>
+
+<section style={{ marginTop: 40 }}>
+  <h2 style={{ color: "#38bdf8" }}>Training Regimen</h2>
+  <ul style={{ color: "#ddd", lineHeight: 1.8, paddingLeft: 18 }}>
+    <li><b>Mechanics:</b> hands, hips, shoulders, release</li>
+    <li><b>Time &amp; room shooting:</b> catch → load → fire</li>
+    <li><b>On-the-run shooting:</b> balance, angles, accuracy</li>
+    <li><b>Quick release:</b> speed without losing form</li>
+    <li><b>Game-speed reps</b> that translate to real games</li>
+  </ul>
+</section>
+
+<section style={{ marginTop: 40 }}>
+  <h2 style={{ color: "#38bdf8" }}>What to Expect</h2>
+  <ul style={{ color: "#ddd", lineHeight: 1.8, paddingLeft: 18 }}>
+    <li>Warm-up + quick evaluation</li>
+    <li>Form corrections with clear coaching cues</li>
+    <li>High-quality reps at game speed</li>
+    <li>Take-home drills so progress continues</li>
+  </ul>
+</section>
+        
       </section>
 
       <Slideshow />
