@@ -23,14 +23,14 @@ function Slideshow() {
         src={images[index]}
         alt="Bomb Lacrosse slideshow"
         style={{
-          width: "100%",
-          maxWidth: 900,
-          height: 420,
-          objectFit: "cover",
-          borderRadius: 16,
-          border: "1px solid #222",
-          display: "block",
-        }}
+  width: "100%",
+  maxWidth: 900,
+  height: "auto",
+  objectFit: "contain",
+  borderRadius: 16,
+  border: "1px solid #222",
+  display: "block",
+}}
       />
 
       <div style={{ display: "flex", gap: 8, marginTop: 12 }}>
