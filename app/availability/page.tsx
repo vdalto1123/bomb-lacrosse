@@ -36,12 +36,19 @@ export default function AvailabilityPage() {
         }}
       >
         <iframe
-          src={`${calendly}?hide_gdpr_banner=1`}
-          width="100%"
-          height="900"
-          frameBorder="0"
-          title="Calendly"
-        />
+  src="https://calendly.com/vinceddalto?hide_gdpr_banner=1"
+  width="100%"
+  height="600"
+  style={{
+    border: "1px solid #222",
+    borderRadius: 16,
+    maxWidth: 900,
+    display: "block",
+    margin: "0 auto"
+  }}
+  frameBorder="0"
+  title="Calendly"
+/>
       </div>
 
       <section style={{ marginTop: 40 }}>
