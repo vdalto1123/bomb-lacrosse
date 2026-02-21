@@ -56,7 +56,7 @@ function Slideshow() {
 export default function Home() {
   return (
     <main style={{padding:40,maxWidth:900,margin:"auto"}}>
-      <h1 style={{fontSize:40}}>Learn to shoot outside bombs.</h1>
+      <h1 style={{fontSize:40}}>Learn to shoot bombs.</h1>
       <p style={{color:"#ccc",fontSize:18}}>
         Private lessons ($50) and shooting clinics ($30) for athletes ages 7–21.
       </p>
