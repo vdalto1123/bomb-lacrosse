@@ -58,15 +58,15 @@ export default function Home() {
     <main style={{padding:40,maxWidth:900,margin:"auto"}}>
       <h1 style={{fontSize:40}}>Learn to shoot outside bombs.</h1>
       <p style={{color:"#ccc",fontSize:18}}>
-        Private lessons ($50) and shooting clinics ($30) for athletes ages 7–17.
+        Private lessons ($50) and shooting clinics ($30) for athletes ages 7–21.
       </p>
 
       <section style={{marginTop:40}}>
         <h2 style={{color:"#38bdf8"}}>About the Coach</h2>
         <p>
-          10+ years coaching experience turning good players into great players.
-          Two-time All-American at Boston University.
-          Program record holder for goals (167), points (280), and points in a game (14).
+          Vince D'Alto has 10+ years coaching experience turning good players into great players.
+          He was a two-time All-American at Boston University, And signed a 2 year contract with the Redwoods Lacrosse Club.
+          He is Boston Universities program record holder for goals (167), points (280), and points in a game (14).
         </p>
 
         <section style={{ marginTop: 40 }}>
