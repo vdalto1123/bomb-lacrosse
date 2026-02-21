@@ -44,45 +44,6 @@ export default function AvailabilityPage() {
         />
       </div>
 
-      <section style={{ marginTop: 50 }}>
-        <h2 style={{ color: "#89CFF0" }}>About Us</h2>
-        <p>
-          Bomb Lacrosse is built around one idea: proper form creates confident
-          shooters. I have 10+ years of coaching experience turning good players
-          into great players. I was a two-time All-American at Boston University
-          and hold program records for goals and points.
-        </p>
-      </section>
-
-      <section style={{ marginTop: 40 }}>
-        <h2 style={{ color: "#89CFF0" }}>Training Regimen</h2>
-        <ul>
-          <li>Mechanics: hands, hips, shoulders, release</li>
-          <li>Time & room shooting: catch → load → fire</li>
-          <li>On-the-run shooting: balance, angles, accuracy</li>
-          <li>Quick release: speed without losing form</li>
-          <li>Game-speed reps that translate to real games</li>
-        </ul>
-      </section>
-
-      <section style={{ marginTop: 40 }}>
-        <h2 style={{ color: "#89CFF0" }}>Pricing</h2>
-        <ul>
-          <li><b>Private Lesson:</b> $50 per athlete (60 minutes)</li>
-          <li><b>Shooting Clinic:</b> $30 per athlete</li>
-        </ul>
-      </section>
-
-      <section style={{ marginTop: 40 }}>
-        <h2 style={{ color: "#89CFF0" }}>What to Expect</h2>
-        <ul>
-          <li>Warm-up + quick evaluation</li>
-          <li>Form corrections with clear coaching cues</li>
-          <li>High-quality reps at game speed</li>
-          <li>Take-home drills so progress continues</li>
-        </ul>
-      </section>
-
       <section style={{ marginTop: 40 }}>
         <h2 style={{ color: "#89CFF0" }}>FAQ</h2>
         <ul>
