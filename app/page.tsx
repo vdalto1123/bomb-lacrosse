@@ -1,7 +1,13 @@
 "use client";
 import { useEffect, useState } from "react";
 function Slideshow() {
-  const images = ["/slide1.jpg", "/slide2.jpg", "/slide3.jpg"]; // add more if you uploaded more
+  const images = [
+  "/Slide1.jpg",
+  "/Slide2.jpg",
+  "/Slide3.jpg",
+  "/Slide4.JPG",
+  "/Slide5.jpg"
+]; // add more if you uploaded more
   const [index, setIndex] = useState(0);
 
   useEffect(() => {
