@@ -38,7 +38,7 @@ export default function AvailabilityPage() {
         <iframe
   src="https://calendly.com/vinceddalto?hide_gdpr_banner=1"
   width="100%"
-  height="600"
+  height="500"
   style={{
     border: "1px solid #222",
     borderRadius: 16,
