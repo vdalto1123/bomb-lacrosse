@@ -70,21 +70,7 @@ export default function Home() {
           He was a two-time All-American at Boston University, And signed a 2 year contract with the Redwoods Lacrosse Club.
           He is Boston Universities program record holder for goals (167), points (280), and points in a game (14).
           <div style={{ marginTop: 30, display: "grid", gap: 20 }}>
-            <a
-  href="/availability"
-  style={{
-    display: "inline-block",
-    marginTop: 20,
-    padding: "15px 25px",
-    background: "#89CFF0",
-    color: "#000",
-    textDecoration: "none",
-    fontWeight: "bold",
-    borderRadius: 8
-  }}
->
-  View Availability & Book
-</a>
+          
   <iframe
     width="100%"
     height="400"
