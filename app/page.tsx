@@ -64,12 +64,32 @@ export default function Home() {
 </ul>
 
       <section style={{marginTop:40}}>
-        <h2 style={{color:"#38bdf8"}}>About the Coach</h2>
-        <p>
-          Vince D'Alto has 10+ years coaching experience molding good players into great players.
-          He was a two-time All-American at Boston University, And signed a 2 year contract with the Redwoods Lacrosse Club.
-          He is Boston Universities program record holder for goals (167), points (280), and points in a game (14).
-          <div style={{ marginTop: 30, display: "grid", gap: 20 }}>
+  <h2 style={{color:"#38bdf8"}}>About the Coach</h2>
+
+  <p>
+    Vince D'Alto has 10+ years coaching experience molding good players into great players.
+    He was a two-time All-American at Boston University and signed a 2 year contract with the Redwoods Lacrosse Club.
+    He is Boston University’s program record holder for goals (167), points (280), and points in a game (14).
+  </p>
+
+  <div style={{ marginTop: 20 }}>
+    <a
+      href="/availability"
+      style={{
+        display: "inline-block",
+        padding: "15px 25px",
+        background: "#89CFF0",
+        color: "#000",
+        textDecoration: "none",
+        fontWeight: "bold",
+        borderRadius: 8
+      }}
+    >
+      View Availability & Book
+    </a>
+  </div>
+
+</section>
           
   <iframe
     width="100%"
