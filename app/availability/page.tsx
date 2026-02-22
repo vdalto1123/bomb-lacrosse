@@ -54,7 +54,7 @@ export default function AvailabilityPage() {
       <section style={{ marginTop: 40 }}>
         <h2 style={{ color: "#89CFF0" }}>FAQ</h2>
         <ul>
-          <li><b>Who is this for?</b> Athletes ages 7–17 (parents book).</li>
+          <li><b>Who is this for?</b> Athletes ages 7–21 (parents book).</li>
           <li><b>What should we bring?</b> Stick, helmet, gloves, water.</li>
           <li><b>Where is training?</b> (TBD)</li>
         </ul>
