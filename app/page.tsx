@@ -63,66 +63,60 @@ export default function Home() {
   <li>Athletes ages 7–21</li>
 </ul>
 
-      <section style={{marginTop:40}}>
-  <h2 style={{color:"#38bdf8"}}>About the Coach</h2>
+ <section style={{ marginTop: 40 }}>
+  <h2 style={{ color: "#38bdf8" }}>About the Coach</h2>
 
-  <p>
+  <p style={{ color: "#ddd", lineHeight: 1.6 }}>
     Vince D'Alto has 10+ years coaching experience molding good players into great players.
-    He was a two-time All-American at Boston University and signed a 2 year contract with the Redwoods Lacrosse Club.
-    He is Boston University’s program record holder for goals (167), points (280), and points in a game (14).
+    He was a two-time All-American at Boston University and signed a 2 year contract with the
+    Redwoods Lacrosse Club. He is Boston University’s program record holder for goals (167),
+    points (280), and points in a game (14).
   </p>
 
-  <div style={{ marginTop: 20 }}>
-    <a
-      href="/availability"
-      style={{
-        display: "inline-block",
-        padding: "15px 25px",
-        background: "#89CFF0",
-        color: "#000",
-        textDecoration: "none",
-        fontWeight: "bold",
-        borderRadius: 8
-      }}
-    >
-      View Availability & Book
-    </a>
+  {/* Button directly under the paragraph */}
+  <a
+    href="/availability"
+    style={{
+      display: "inline-block",
+      marginTop: 16,
+      padding: "15px 25px",
+      background: "#89CFF0",
+      color: "#000",
+      textDecoration: "none",
+      fontWeight: "bold",
+      borderRadius: 8,
+    }}
+  >
+    View Availability & Book
+  </a>
+
+  {/* Videos */}
+  <div style={{ marginTop: 24, display: "grid", gap: 16 }}>
+    <iframe
+      width="100%"
+      height="360"
+      src="https://www.youtube.com/embed/LjWB9cCaa1M"
+      title="Bomb Lacrosse Video 1"
+      frameBorder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowFullScreen
+      style={{ borderRadius: 16, border: "1px solid #222" }}
+    />
+
+    <iframe
+      width="100%"
+      height="360"
+      src="https://www.youtube.com/embed/JB0f89xbteI"
+      title="Bomb Lacrosse Video 2"
+      frameBorder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowFullScreen
+      style={{ borderRadius: 16, border: "1px solid #222" }}
+    />
   </div>
-
-</section>
+</section>     
           
-  <iframe
-    width="100%"
-    height="400"
-    src="https://www.youtube.com/embed/LjWB9cCaa1M"
-    title="Bomb Lacrosse Video 1"
-    frameBorder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-    allowFullScreen
-    style={{
-      borderRadius: 16,
-      border: "1px solid #222",
-      maxWidth: 900
-    }}
-  />
-
-  <iframe
-    width="100%"
-    height="400"
-    src="https://www.youtube.com/embed/JB0f89xbteI"
-    title="Bomb Lacrosse Video 2"
-    frameBorder="0"
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-    allowFullScreen
-    style={{
-      borderRadius: 16,
-      border: "1px solid #222",
-      maxWidth: 900
-    }}
-  />
-</div>
-        </p>
-
+ 
         <section style={{ marginTop: 40 }}>
   <h2 style={{ color: "#38bdf8" }}>About Us</h2>
   <p style={{ color: "#ddd", fontSize: 16, lineHeight: 1.6 }}>
@@ -153,8 +147,6 @@ export default function Home() {
     <li>Reps, Reps, Reps!</li>
   </ul>
 </section>
-        
-      </section>
 
       <Slideshow />
       
