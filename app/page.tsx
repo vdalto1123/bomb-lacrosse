@@ -126,9 +126,10 @@ export default function Home() {
   <ul style={{ color: "#ddd", lineHeight: 1.8, paddingLeft: 18 }}>
     <li>Warm-up + quick evaluation</li>
     <li>Form corrections with clear coaching cues</li>
+    <li>Velocity, and accuracy drills<li>
     <li>High-quality reps at game speed</li>
     <li>Take-home drills so progress continues</li>
-    <li> Reps, Reps, Reps!</li>
+    <li>Reps, Reps, Reps!</li>
   </ul>
 </section>
         
