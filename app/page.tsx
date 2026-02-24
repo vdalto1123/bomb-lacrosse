@@ -62,8 +62,8 @@ export default function Home() {
   style={{
     position: "absolute",
     top: 10,
-    right: 150,
-    width: 325,
+    right: 120,
+    width: 350,
     height: "auto",
     objectFit: "contain"
   }}
