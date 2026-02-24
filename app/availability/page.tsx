@@ -28,25 +28,25 @@ export default function AvailabilityPage() {
       </div>
 
       <div
-        style={{
-          marginTop: 30,
-          border: "1px solid #222",
-          borderRadius: 14,
-          overflow: "hidden",
-        }}
-      >
+  style={{
+    marginTop: 30,
+    borderRadius: 16,
+    overflow: "hidden",
+    maxWidth: 900,
+    marginLeft: "auto",
+    marginRight: "auto",
+  }}
+>
         <iframe
   src="https://calendly.com/vinceddalto?hide_gdpr_banner=1"
   width="100%"
   height="600"
-  style={{
-    border: "1px solid #222",
-    borderRadius: 16,
-    maxWidth: 900,
-    display: "block",
-    margin: "0 auto"
-  }}
   frameBorder="0"
+  style={{
+    borderRadius: 16,
+    display: "block",
+    width: "100%",
+  }}
   title="Calendly"
 />
       </div>
