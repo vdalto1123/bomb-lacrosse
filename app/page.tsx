@@ -61,7 +61,7 @@ export default function Home() {
   alt="Bomb Lacrosse Logo"
   style={{
     position: "absolute",
-    top: 30,
+    top: 20,
     right: 150,
     width: 325,
     height: "auto",
