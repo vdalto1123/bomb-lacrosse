@@ -63,7 +63,7 @@ export default function Home() {
     position: "absolute",
     top: 30,
     right: 30,
-    width: 120,
+    width: 200,
     height: "auto",
     objectFit: "contain"
   }}
