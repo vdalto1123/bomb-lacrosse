@@ -68,7 +68,7 @@ export default function Home() {
     objectFit: "contain"
   }}
 />
-      <h1 style={{fontSize:40}}>Learn to shoot bombs.</h1>
+      <h1 style={{ fontSize: 40, color: "#38bdf8" }}>Learn to shoot bombs.</h1>
      <ul style={{ color: "#ddd", fontSize: 18, marginTop: 10, lineHeight: 1.8 }}>
   <li>Private lessons — $50 per athlete (60 minutes)</li>
   <li>Shooting clinics — $30 per athlete</li>
