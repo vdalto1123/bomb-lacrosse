@@ -56,14 +56,14 @@ function Slideshow() {
 export default function Home() {
   return (
     <main style={{ padding: 40, maxWidth: 900, margin: "auto", position: "relative" }}>
-      <img
+     <img
   src="/logo.png"
   alt="Bomb Lacrosse Logo"
   style={{
     position: "absolute",
-    top: 20,
-    right: 20,
-    width: 60,
+    top: 30,
+    right: 30,
+    width: 120,
     height: "auto",
     objectFit: "contain"
   }}
