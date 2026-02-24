@@ -26,31 +26,30 @@ export default function AvailabilityPage() {
           Open Calendly (Book a Time)
         </a>
       </div>
-
-      <div
+<div
   style={{
     marginTop: 30,
     borderRadius: 16,
     overflow: "hidden",
-    maxWidth: 900,
+    maxWidth: 1000,
     marginLeft: "auto",
     marginRight: "auto",
   }}
 >
-        <iframe
-  src="https://calendly.com/vinceddalto?hide_gdpr_banner=1"
-  width="100%"
-  height="600"
-  frameBorder="0"
-  style={{
-    borderRadius: 16,
-    display: "block",
-    width: "100%",
-  }}
-  title="Calendly"
-/>
-      </div>
-
+  <iframe
+    src="https://calendly.com/vinceddalto?hide_gdpr_banner=1"
+    width="100%"
+    height="650"
+    frameBorder="0"
+    style={{
+      display: "block",
+      width: "100%",
+      border: "0",
+    }}
+    title="Calendly"
+  />
+</div>
+      
       <section style={{ marginTop: 40 }}>
         <h2 style={{ color: "#89CFF0" }}>FAQ</h2>
         <ul>
