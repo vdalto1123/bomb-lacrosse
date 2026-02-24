@@ -55,7 +55,19 @@ function Slideshow() {
 }
 export default function Home() {
   return (
-    <main style={{padding:40,maxWidth:900,margin:"auto"}}>
+    <main style={{ padding: 40, maxWidth: 900, margin: "auto", position: "relative" }}>
+      <img
+  src="/logo.png"
+  alt="Bomb Lacrosse Logo"
+  style={{
+    position: "absolute",
+    top: 20,
+    right: 20,
+    width: 60,
+    height: "auto",
+    objectFit: "contain"
+  }}
+/>
       <h1 style={{fontSize:40}}>Learn to shoot bombs.</h1>
      <ul style={{ color: "#ddd", fontSize: 18, marginTop: 10, lineHeight: 1.8 }}>
   <li>Private lessons — $50 per athlete (60 minutes)</li>
